@@ -165,4 +165,4 @@ gradle-app.setting
 
 # Custom rules (everything added below won't be overriden by 'Generate .gitignore File' if you use 'Update' option)
 
-src/main/kotlin/moe/z0ne/mc/forge1installer/version.kt
+src/main/kotlin/moe/z0ne/mc/forge2installer/version.kt

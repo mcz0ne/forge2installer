@@ -52,7 +52,7 @@ fun main(args: Array<String>) {
     logger.info("Starting forge 2 installer")
     val target = File(args[0])
     val mon = ProgressCallback { message, priority -> logger.debug("{}: {}", priority.toString(), message) }
-    val optPred = Predicate { _: String? -> false }
+    val optPred = Predicate { _: String? -> true }
 
     // disable download progress bar
     SimpleInstaller.headless = true
